@@ -1,0 +1,24 @@
+formulir html
+
+Ulasan Formulir
+Kerja bagus berinteraksi dengan elemen yang sangat umum dan berguna <form>!
+
+Dalam pelajaran ini kami membahas:
+
+Tujuan dari a <form>adalah untuk memungkinkan pengguna memasukkan informasi dan mengirimkannya.
+The <form>'s actionatribut menentukan mana informasi form pergi.
+The <form>'s methodatribut menentukan bagaimana informasi tersebut dikirim dan diproses.
+Untuk menambahkan bidang bagi pengguna untuk memasukkan informasi, kami menggunakan <input>elemen dan mengatur typeatribut ke bidang yang kami pilih:
+Pengaturan typeuntuk "text"membuat bidang baris tunggal untuk input teks.
+Pengaturan typeuntuk "password"membuat bidang baris tunggal yang menyensor input teks.
+Pengaturan typeuntuk "number"membuat bidang baris tunggal untuk input angka.
+Pengaturan typeuntuk "range"membuat slider untuk memilih dari berbagai angka.
+Pengaturan typeuntuk "checkbox"membuat kotak centang tunggal yang dapat dipasangkan dengan kotak centang lainnya.
+Pengaturan typeuntuk "radio"membuat tombol radio yang dapat dipasangkan dengan tombol radio lainnya.
+Pengaturan typeuntuk "list"akan memasangkan <input>dengan <datalist>elemen.
+Pengaturan typeuntuk "submit"membuat tombol kirim.
+Sebuah <select>elemen diisi dengan <option>elemen dan membuat pilihan daftar dropdown.
+Sebuah <datalist>elemen diisi dengan <option>elemen - elemen dan bekerja dengan a <input>untuk mencari melalui pilihan.
+Sebuah <textarea>elemen adalah bidang input teks yang memiliki luas disesuaikan.
+Ketika a <form>dikirimkan, namebidang-bidang yang menerima input dan valuebidang-bidang tersebut dikirim sebagai name=valuepasangan.
+Menggunakan <form>elemen bersama dengan elemen lain yang tercantum di atas memungkinkan kami untuk membuat situs yang mempertimbangkan keinginan dan kebutuhan pengguna kami. Manfaatkan kesempatan ini untuk mengambil apa yang telah Anda pelajari dan menerapkannya!

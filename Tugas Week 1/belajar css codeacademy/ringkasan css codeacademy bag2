@@ -1,0 +1,12 @@
+ATURAN VISUAL CSS
+Tinjau Aturan Visual
+Pekerjaan luar biasa! Anda menggunakan CSS untuk mengubah teks dan gambar di seluruh situs web. Sepanjang pelajaran ini, Anda mempelajari konsep termasuk:
+
+Deklarasi CSS disusun menjadi pasangan properti dan nilai.
+The font-familyproperti mendefinisikan jenis huruf dari suatu unsur.
+font-size mengontrol ukuran teks yang ditampilkan.
+font-weight menentukan seberapa tipis atau tebal teks ditampilkan.
+The text-aligntempat properti teks di kiri, kanan, atau tengah wadah induknya.
+Teks dapat memiliki dua atribut warna yang berbeda: colordan background-color. colormendefinisikan warna teks, sedangkan background-colormendefinisikan warna di belakang teks.
+CSS dapat membuat elemen transparan dengan opacityproperti.
+CSS juga dapat mengatur latar belakang elemen ke gambar dengan background-imageproperti.

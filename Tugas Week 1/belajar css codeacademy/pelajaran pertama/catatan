@@ -1,0 +1,13 @@
+PENGATURAN DAN PENYELEKSI CSS
+Pengantar CSS
+Struktur dasar setiap halaman web, HTML, sangat sederhana dengan sendirinya.
+Situs web indah yang Anda lihat di internet ditata dengan berbagai alat, termasuk CSS.
+CSS , atau Cascading Style Sheets,adalah bahasa yang digunakan pengembang web untuk menata konten HTML pada halaman web.
+Jika Anda tertarik untuk memodifikasi warna, jenis font, ukuran font, bayangan, gambar, penentuan posisi elemen, dan banyak lagi,
+ CSS adalah alat untuk pekerjaan itu!
+Dalam pelajaran ini, Anda akan belajar cara memilih elemen HTML mana yang ingin Anda gaya dan mengatur struktur file CSS Anda.
+
+Lihatlah kode dan browser di sebelah kanan. Kode ini HTML biasa tanpa gaya apa pun. Mari kita lihat kekuatan CSS.
+Salin baris kode berikut, tempel di baris 5, dan jalankan kode Anda
+<link href="style.css" type="text/css" rel="stylesheet">
+Apa yang terjadi? Luangkan waktu untuk mengeksplorasi dan bereksperimen dengan kode di style.css .
