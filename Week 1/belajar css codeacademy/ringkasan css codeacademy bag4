@@ -1,0 +1,11 @@
+MENGUBAH MODEL KOTAK
+Ulasan: Mengubah Model Kotak
+Dalam pelajaran ini, Anda belajar tentang batasan penting dari model kotak default: dimensi kotak dipengaruhi oleh ketebalan dan bantalan batas.
+
+Mari tinjau apa yang Anda pelajari:
+
+Dalam model kotak default, dimensi kotak dipengaruhi oleh ketebalan dan bantalan batas.
+The box-sizingproperti mengontrol model kotak yang digunakan oleh browser.
+Nilai default box-sizingproperti adalah content-box.
+Nilai untuk model kotak baru adalah border-box.
+The border-boxModel tidak terpengaruh oleh ketebalan perbatasan atau padding.
