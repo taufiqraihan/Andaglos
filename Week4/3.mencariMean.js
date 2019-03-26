@@ -1,22 +1,46 @@
 // Logic Challenge - Mencari Mean
 // Problem
-// Diberikan sebuah function cariMean(arr) yang menerima sebuah array angka. Function akan me-return mean dari array atau deret angka tersebut. Mean adalah angka rata-rata dari deret bilangan tersebut. Contoh, mean atau rata-rata dari [1, 2, 3, 4, 5] adalah 3. Kita perlu kemudian melakukan pembulatan angka dari hasil mean yang didapatkan.
+/* 
+Diberikan sebuah function cariMean(arr) yang menerima sebuah array angka. 
+Function akan me-return mean dari array atau deret angka tersebut. 
+Mean adalah angka rata-rata dari deret bilangan tersebut. 
+Contoh, mean atau rata-rata dari [1, 2, 3, 4, 5] adalah 3. 
+Kita perlu kemudian melakukan pembulatan angka dari hasil mean yang didapatkan. 
+
+code
+*/
+
+//1.0 sebuah fungsi dengan parameter array angka
+    //1.1 inisialisasi variable kosong sama dengan nol untuk penampung
+//2.0 buat perulangan untuk menbaca dan mengambil angka parameter array
+    //2.1 membaca angka dari kiri ke kanan dengan pengulangan index x sepangjng array
+    //2.2 setelah mendapatkan angka lalu masukan angka ke variable penampung
+//3.0 menghitung rata-rata dari angka-angka tersebut
+    //3.1 angka divariable penampung dibagi panjang index array
+    //3.2 dan return dengan pembulatan
+
+//code disini
 function cariMean(arr) {
-
-  var hasil = 0;
-
-  for(var i = 0; i < arr.length; i ++) {
-
-  // rumus mean jumlah seluruh data dibagi banyaknya data
-
-  hasil += arr[i];
-
+  var tampung=0;
+  for(var x=0; x<arr.length;x++){
+    tampung += Number(arr[x]);
   }
-
-  return Math.round(hasil/arr.length);
-
+  return Math.round(tampung/arr.length);
 }
 
+
+
+// Cara 2
+/*
+function cariMean(arr) {
+  var hasil = 0;
+  for(var i = 0; i < arr.length; i ++) {
+  // rumus mean jumlah seluruh data dibagi banyaknya data
+  hasil += arr[i];
+  }
+  return Math.round(hasil/arr.length);
+}
+*/
 
 
 console.log(cariMean([1, 2, 3, 4, 5])); // 3
